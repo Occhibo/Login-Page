@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/images/wp7781512-catering-wallpapers.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h3{
+    color: aliceblue;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 5);
+   
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(/images/wp14785687-chef-cooking-wallpapersperson.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+
+}
+input{
+    width: 100%;
+}
+.formBox input[type="text"],
+.formBox input[type="password"]{
+    
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    height: 40px;
+
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus{
+
+    border-bottom:2px solid #1d72f1;
+}
+.formBox p{
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.formBox input[type="submit"]{
+    height: 40px;
+    text-transform: uppercase;
+    background: #202225;
+    border-radius: 5px;
+    color: aliceblue;
+    
+}
+.formBox input[type="submit"]:hover{
+    cursor: pointer;
+     font-size: 15px;
+     
+    
+    
+}
+.formBox a{
+    font-size: 17px;
+    color: #202225;
+    
+}
+ 
